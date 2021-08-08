@@ -12,7 +12,7 @@ namespace Infrastructure.Data
         public ProductRepository(StoreContext context)
         {
             _context = context;
-        }
+        } 
 
         public async Task<IReadOnlyList<Product>> GetAllProductsAsync()
         {
